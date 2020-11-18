@@ -1,0 +1,50 @@
+.main {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main h1 {
+  width: 90%;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters h2 {
+  margin-left: 10px;
+}
+
+.filters input {
+  font-size: 14px;
+  text-align: center;
+  height: 20px;
+  padding: 3px;
+}
+
+.label {
+  margin: 0 10px;
+}
+
+.currency {
+  margin: 20px 0;
+}
+
+.currency select {
+  font-size: 14px;
+  height: 30px;
+  padding: 3px;
+}
+
+.values {
+  text-align: right;
+  margin: 20px;
+}
