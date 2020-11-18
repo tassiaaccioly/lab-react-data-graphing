@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Chart from "chart.js";
-import "./GraphCoins.css";
+import "./Graph.css";
 
-function GraphCoin() {
+function Graph() {
   const [state, setState] = useState({});
   const [filterDate, setFilterDate] = useState({
     startDate: "2020-10-18",
@@ -131,4 +131,4 @@ function GraphCoin() {
   );
 }
 
-export default GraphCoin;
+export default Graph;
